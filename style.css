@@ -1,0 +1,38 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hrline {
+    display: flex;
+}
+
+.header-name h3 {
+    margin-bottom: 0;
+}
+
+.header-name hr:first-child {
+    width: 15px;
+    height: 4px;
+    background-color: #000;
+    border-radius: 20px;
+    text-align: start;
+    margin: 0;
+}
+
+.header-name hr:last-child {
+    width: 5px;
+    height: 4px;
+    background-color: #545454;
+    border-radius: 20px;
+    text-align: start;
+    margin: 0;
+}
+
+.search-head h3 {
+    background-color: #000;
+    color: white;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
