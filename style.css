@@ -3,7 +3,7 @@
 }
 
 .main {
-    margin: 2rem 1.2rem;
+    margin: 2rem 1.2rem 0 1.2rem;
 }
 
 .header {
@@ -56,6 +56,7 @@
 
 .headposter img {
     width: 100%;
+    height: 15vh;
     object-fit: cover;
     border-radius: 20px;
 }
@@ -103,4 +104,73 @@
 .album-title small {
     color: gray;
     font-weight: 700;
+}
+
+.songs {
+    margin-top: 1rem;
+}
+
+.song-img {
+    width: 4rem;
+}
+.song-img img {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.song-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+}
+
+.song-title small {
+    color: gray;
+    font-weight: 700;
+}
+
+.song-intd {
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.controls {
+    display: flex;
+    gap: 3px;
+}
+
+.controls hr {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.playmusic {
+    background-color: #212121;
+    color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.music-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.music-controls {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#play {
+    padding: 10px;
+    background-color: white;
+    color: #000;
+    border-radius: 50%;
 }
