@@ -2,8 +2,12 @@
     font-family: sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .main {
-    margin: 2rem 1.2rem 0 1.2rem;
+    margin: 1rem 1.2rem 0 1.2rem;
 }
 
 .header {
@@ -173,4 +177,17 @@
     background-color: white;
     color: #000;
     border-radius: 50%;
+}
+
+.tune-head {
+    display: flex;
+    gap: 4px;
+    flex-direction: row;
+}
+
+.tune-head hr {
+    width:5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: #000;
 }
